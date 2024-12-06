@@ -78,7 +78,7 @@ jobs:
       run: |
         cd openwrt
         make defconfig
-        make download V=s -j8
+        make download -j$(nproc) V=s
         find dl -size -1024c -exec ls -l {} \;
         find dl -size -1024c -exec rm -f {} \;
 
