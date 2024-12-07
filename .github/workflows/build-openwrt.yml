@@ -15,7 +15,7 @@ on:
   workflow_dispatch:
 
 env:
-  REPO_URL: https://github.com/chautruongthinh/HandsomeMod
+  REPO_URL: https://github.com/LeeHe-gif/HandsomeMod
   REPO_BRANCH: master
   FEEDS_CONF: feeds.conf.default
   CONFIG_FILE: .config
